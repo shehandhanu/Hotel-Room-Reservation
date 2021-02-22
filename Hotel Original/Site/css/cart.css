@@ -1,0 +1,398 @@
+
+/* CSS Document */
+*{ margin: 0; padding: 0;}
+a{ 
+    text-decoration: none;
+}
+
+.clearfix{overflow: auto;}
+
+
+body{
+    background-color: white;
+}
+/*rgb(143, 143, 143)*/
+/* Header */
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    background-color:white;
+}
+
+.links{
+    float: right;
+	
+}
+
+.links ul{
+    list-style: none;
+    margin: 20px 15px;
+}
+
+.links ul li{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid rgb(20,20,20);
+    border-left: 1px solid rgb(20,20,20);
+}
+
+
+.links ul li :last-child{
+    border: 0;
+}
+
+
+.links ul a{
+    color: rgb(20,20,20);
+
+
+}
+
+
+.logo img{
+    margin-left:400px;
+	margin-right:auto;
+	display:block;
+    width: 230px;
+    height: 150px;
+	
+}
+.userimage{
+	height:20px;
+	width:20px;
+	position:absolute;
+	top:20px;
+	right:145px;	
+	}
+
+.hotel-name h1{
+    color: rgb(245, 230, 137);
+    text-align: center;
+}
+/* Header Class End */
+
+/* Search Bar */
+.search-bar{
+    float: right;
+    padding: 2px 10px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.search-bar input{
+    border: none;
+}
+
+.search-bar button{
+    background-color: white;
+    border: none;
+    /* background: url(../images/icons/search.png) */
+}
+/* Search Bar Class End */
+
+/* Navigation Bar */
+.navigation{
+    width: 1000px;
+    height: 42px;
+    
+    padding: 0px;
+    margin: 0 auto;
+	background-color: rgb(64, 63, 63);
+}
+#mybookings{
+	float:right;
+}
+
+.navigation ul{
+    margin: 2px;
+}
+
+.navigation ul li{
+    list-style: none;
+    /* background-color: rgb(50, 50, 50); */
+    display: inline-block;
+    padding: 5px 10px;
+    border-right: 1px solid rgb(245, 230, 137);
+	height:35px;
+	
+	
+}
+.navigation ul li:hover{
+       background-color: rgb(238, 209, 91);
+	color: rgb(20,20,20);
+}
+.navigation .dropDown ul li:hover{
+       background-color: rgb(20, 20, 20);
+	color:white;
+}
+.navigation ul li a:hover{
+   
+	color: rgb(20,20,20);
+	font-size:18px;
+font-weight:bold;
+}
+.navigation ul li:last-child{
+    border: none;
+}
+
+.navigation ul li a{
+    color: rgb(245, 230, 137);
+
+}
+
+/*Drop down*/
+.navigation .dropDown ul li:hover{
+       background-color: rgb(20, 20, 20);
+	color:white;
+}
+.navigation ul{
+
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.navigation ul li{
+
+	float:left;
+	width:100px;
+	text-align:center;
+	line-height:30px;
+	
+
+}
+.navigation ul li ul li {
+
+	float:left;
+	width:120px;
+	text-align:center;
+	line-height:40px;
+	border:none;
+
+
+}
+
+
+.navigation ul li a{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	
+}
+
+.navigation ul ul{
+	display:none;
+	list-style-type:none;
+	border:none;
+}
+.navigation .dropDown  ul li a:hover{
+	opacity:0.8;
+	color:white;
+	font-size: 15px;
+	
+}
+.navigation ul li:hover ul{
+	display: block;
+	position: absolute;
+	background-color: rgb(20,20,20);
+	border:none;
+	padding: 0;
+	height:50px;
+	margin-left:0px;
+	left:290px;
+	z-index: 10;
+	
+	
+
+}
+.navigation ul li:hover li{
+	float:none;
+	background-color:rgb(20, 20,20);
+	
+	opacity:0.8;
+	display:block;
+	position:relative;
+	margin-top:1px;
+}
+
+.navigation ul a:hover > ul{
+	
+	opacity:0.8;
+	
+}
+
+/* header & navigation bar ended */
+
+.body
+{
+    width: 1000px;
+    
+}
+
+h2
+{
+    margin-left: 151px;
+}
+hr{
+    width: 75%;
+    border-width: 2px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 145px;
+    margin-top: 25px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 489px;
+    margin-top: -462px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card1 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card1 button:hover {
+    opacity: 0.7;
+  }
+
+  
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 834px;
+    margin-top: -462px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card2 button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card2 button:hover {
+    opacity: 0.7;
+  }
+
+
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 171px;
+    margin-top: 34px;
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 171px;
+    margin-top: 34px;
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 501px;
+    margin-top: -404px;
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .card5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left: 824px;
+    margin-top: -404px;
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }

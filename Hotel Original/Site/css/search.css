@@ -1,0 +1,459 @@
+/* CSS Document */
+*{ margin: 0; padding: 0;}
+a{ 
+    text-decoration: none;
+}
+
+.clearfix{overflow: auto;}
+
+
+body{
+    background-color: white;
+}
+/*rgb(143, 143, 143)*/
+/* Header */
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    background-color:white;
+}
+
+.links{
+    float: right;
+	
+}
+
+.links ul{
+    list-style: none;
+    margin: 20px 15px;
+}
+
+.links ul li{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid rgb(20,20,20);
+    border-left: 1px solid rgb(20,20,20);
+}
+
+
+.links ul li :last-child{
+    border: 0;
+}
+
+
+.links ul a{
+    color: rgb(20,20,20);
+
+
+}
+
+
+.logo img{
+    margin-left:400px;
+	margin-right:auto;
+	display:block;
+    width: 230px;
+    height: 150px;
+	
+}
+.userimage{
+	height:20px;
+	width:20px;
+	position:absolute;
+	top:20px;
+	right:145px;	
+	}
+
+.hotel-name h1{
+    color: rgb(245, 230, 137);
+    text-align: center;
+}
+/* Header Class End */
+
+/* Search Bar */
+.search-bar{
+    float: right;
+    padding: 2px 10px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.search-bar input{
+    border: none;
+}
+
+.search-bar button{
+    background-color: white;
+    border: none;
+    /* background: url(../images/icons/search.png) */
+}
+/* Search Bar Class End */
+
+/* Navigation Bar */
+.navigation{
+    width: 1000px;
+    height: 42px;
+    
+    padding: 0px;
+    margin: 0 auto;
+	background-color: rgb(64, 63, 63);
+}
+#mybookings{
+	float:right;
+}
+
+.navigation ul{
+    margin: 2px;
+}
+
+.navigation ul li{
+    list-style: none;
+    /* background-color: rgb(50, 50, 50); */
+    display: inline-block;
+    padding: 5px 10px;
+    border-right: 1px solid rgb(245, 230, 137);
+	height:35px;
+	
+	
+}
+.navigation ul li:hover{
+       background-color: rgb(238, 209, 91);
+	color: rgb(20,20,20);
+}
+.navigation .dropDown ul li:hover{
+       background-color: rgb(20, 20, 20);
+	color:white;
+}
+.navigation ul li a:hover{
+   
+	color: rgb(20,20,20);
+	font-size:18px;
+font-weight:bold;
+}
+.navigation ul li:last-child{
+    border: none;
+}
+
+.navigation ul li a{
+    color: rgb(245, 230, 137);
+
+}
+
+/*Drop down*/
+.navigation .dropDown ul li:hover{
+       background-color: rgb(20, 20, 20);
+	color:white;
+}
+.navigation ul{
+
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.navigation ul li{
+
+	float:left;
+	width:100px;
+	text-align:center;
+	line-height:30px;
+	
+
+}
+.navigation ul li ul li {
+
+	float:left;
+	width:120px;
+	text-align:center;
+	line-height:40px;
+	border:none;
+
+
+}
+
+
+.navigation ul li a{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	
+}
+
+.navigation ul ul{
+	display:none;
+	list-style-type:none;
+	border:none;
+}
+.navigation .dropDown  ul li a:hover{
+	opacity:0.8;
+	color:white;
+	font-size: 15px;
+	
+}
+.navigation ul li:hover ul{
+	display: block;
+	position: absolute;
+	background-color: rgb(20,20,20);
+	border:none;
+	padding: 0;
+	height:50px;
+	margin-left:0px;
+	left:290px;
+	z-index: 10;
+	
+	
+
+}
+.navigation ul li:hover li{
+	float:none;
+	background-color:rgb(20, 20,20);
+	
+	opacity:0.8;
+	display:block;
+	position:relative;
+	margin-top:1px;
+}
+
+.navigation ul a:hover > ul{
+	
+	opacity:0.8;
+	
+}
+
+/* Navigation Bar Class End */
+
+/* Footer */
+.footer{
+    width: 1000px;
+    margin: 0 auto;
+    background:  rgb(20, 20,20);
+}
+
+.footer-1{
+    width: 295px;
+    height: 415px;
+    background-color:rgb(14,14,14);
+    float: left;
+}
+
+.footer-2{
+    width: 400px;
+    height: 413px;
+    background-color: #252525;
+    border: 1px solid black;
+    float: left;
+}
+
+.footer-2 img{
+    width: 489px;
+    height: 404px;
+    margin: 3px;
+    border: 1px sloid black;
+
+}
+
+.footer-1 button{
+    float: right;
+    border: none;
+    padding: 0px;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.footer-1 h2{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+}
+
+.footer-1-post{
+    margin-top: 15px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    color: white;
+}
+ .footer-1-post h5{
+     float: right;
+     margin-right: 20px;
+     text-decoration: underline 1px solid gold;
+ }
+
+.s-links{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 240px;
+}
+.s-links ul li{
+    margin-left: 5px;
+    display: inline-block;
+    
+}
+.s-links ul li:first-child{
+    display: flex;
+    margin: 10px 0;
+    font-size: 25px;
+    color: rgb(245, 230, 137);
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+.email{
+    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.email ul{
+    color:white;
+    list-style: none;
+}
+
+.email ul li{
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
+.email ul li:first-child{
+    margin: 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+    color:rgb(245, 230, 137);
+}
+
+.footer-hotline{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.footer-hotline ul li{
+    margin-left: 10px;
+    list-style: none;
+    color:white;
+}
+
+.footer-hotline ul li:first-child{
+    margin-left: 0px;
+    color:rgb(245, 230, 137);
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+
+/* search rooms */
+
+.search{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.search-up{
+    width: 900px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: rgba(124, 124, 124, 0.685);
+}
+
+
+
+.search-1{
+    float: left;
+    width: 440px;
+    margin: 5px;
+    height: 150px;
+    background-color: none;
+}
+
+.search-2{
+    float: right;
+    width: 440px;
+    margin: 5px;
+    height: 150px;
+    background-color:none;
+}
+
+.search-1 input{
+    width: 300px;
+    height: 30px; 
+}
+
+.search-1 table{
+    margin-top: 40px;
+    float: right;
+}
+
+.search-2 select{
+    width : 20d0px;
+    height: 30px; 
+}
+
+.search-2 td{
+    width: 220px;
+}
+
+.search-2 table{
+    margin-top: 40px;
+    margin-left: 65px;
+}
+
+.search-rooms button{
+    width: 300px;
+    height: 30px;
+    margin-left: 300px;
+}
+
+.search-down{
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+}
+
+.texthead{
+    margin-top: 50px;
+}
+
+.card{
+    margin-top: 5px;
+    margin-bottom: 50px;
+    width: 330px;
+    height: 400px;;
+    /* height: 400px; */
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(175, 175, 175);
+}
+
+.card img{
+    width: 310px;
+    height: 200px;
+}
+
+.card h1{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.price{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.card p{
+    margin-top:15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.card button{
+    width: 200px;
+    height: 40px;
+    margin-left: 60px;
+    float: left;
+}
+
+/* search rooms end */

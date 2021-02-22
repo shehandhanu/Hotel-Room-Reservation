@@ -1,0 +1,432 @@
+
+*{ margin: 0; padding: 0;}
+a{ 
+    text-decoration: none;
+}
+
+.clearfix{overflow: auto;}
+
+
+body{
+    background-color: white;
+}
+/*rgb(143, 143, 143)*/
+/* Header */
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(14,14,14)
+}
+
+.links{
+    float: right;
+	
+}
+
+.links ul{
+    list-style: none;
+    margin: 20px 15px;
+}
+
+.links ul li{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid rgb(245, 230, 137);
+    border-left: 1px solid rgb(245, 230, 137);
+}
+
+
+.links ul li :last-child{
+    border: 0;
+}
+
+
+.links ul a{
+    color: rgb(245, 230, 137)
+}
+
+.logo img{
+    float: left;
+    width: 230px;
+    height: 150px;
+}
+.userimage{
+	height:20px;
+	width:20px;
+	position:absolute;
+	top:20px;
+	right:145px;	
+	}
+#signup{
+	border-right:none;
+}
+.hotel-name h1{
+    color: rgb(245, 230, 137);
+    text-align: center;
+}
+/* Header Class End */
+
+/* Search Bar */
+.search-bar{
+    float: right;
+    padding: 2px 10px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.search-bar input{
+    border: none;
+}
+
+.search-bar button{
+    background-color: white;
+    border: none;
+    /* background: url(../images/icons/search.png) */
+}
+/* Search Bar Class End */
+
+/* Navigation Bar */
+.navigation{
+    width: 1000px;
+    height: 20px;
+    background-color: rgb(20, 20,20);
+    padding: 10px;
+    margin: 0 auto;
+}
+#mybookings{
+	float:right;
+}
+
+.navigation ul{
+    margin: 2px;
+}
+
+.navigation ul li{
+    list-style: none;
+    /* background-color: rgb(50, 50, 50); */
+    display: inline-block;
+    padding: 0px 0px;
+    border-right: 1px solid rgb(245, 230, 137);
+	border
+}
+
+.navigation ul li:last-child{
+    border: none;
+}
+
+.navigation ul li a{
+    color: rgb(245, 230, 137);
+}
+/* Navigation Bar Class End */
+
+/* Footer */
+.footer{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background:  rgb(20, 20,20);
+}
+
+.catogories{
+   
+}
+
+.catogories ul {
+    margin: 15px 50px;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.catogories ul li{
+    font-size: 15px;
+    color: rgb(245, 230, 137);
+    margin: 10px;
+    padding: 0 20px;
+}
+
+.catogories ul li a{
+    color: rgb(245, 230, 137);
+}
+
+.catogories ul li:first-child{
+    font-size: 25px;
+    text-decoration: underline rgb(245, 230, 137);
+    padding: 0;
+}
+
+.quicklink ul{
+    margin: 15px 50px;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.quicklink ul li a{
+    color: rgb(245, 230, 137);
+}
+
+.quicklink ul li{
+    font-size: 15px;
+    color: rgb(245, 230, 137);
+    margin: 10px;
+    padding: 0 20px;
+}
+
+.quicklink ul li:first-child{
+    font-size: 25px;
+    text-decoration: underline rgb(245, 230, 137);
+    padding: 0;
+}
+
+.footercontact{
+    float: inline-end;
+}
+
+.footercontact ul li{
+    color: rgb(245, 230, 137);
+    font-size: 15px;
+}
+
+.footercontact ul{
+    list-style: none;
+}
+
+.s-links{
+    margin: 15px 50px;
+}
+.s-links ul li{
+    display: inline-block;
+}
+.s-links ul li:first-child{
+    display: flex;
+    margin: 10px 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+.email{
+    margin: 40px 50px;
+}
+
+.email ul li{
+    padding: 0 15px;
+}
+
+.email ul li:first-child{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+.footer-hotline{
+    padding: 0 15px;
+    margin: 0 50px;
+}
+
+.footer-hotline ul li:first-child{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+/* Footer Class End */
+.productimage{
+	height:200px;
+	width:300px;	
+	
+}
+.product ul{
+	list-style-type:disc;
+	
+	
+}
+.product td{
+	border:1px solid #999;
+	padding:10px;
+	background:white;
+	padding:20px;
+	
+	
+}
+.product table{
+
+	padding:10px;
+	border-collapse :seperate;
+	border-spacing:50px;
+	background-color:white;
+	margin-left:50px;
+}
+.product p{
+	font-size:16px;
+	font-weight:bold;
+}
+.right{
+	
+	
+}
+.left{
+	
+	
+}
+.roomimage{
+	height:350px;
+	width:550px;
+	margin-left:50px;	
+}
+.coloumn td{
+	
+	vertical-align:top;
+	padding:10px;
+}
+.facilities img{
+	height:50px;
+	width:50px;
+	padding:20px;
+	margin-left:10px;
+	opacity:0.7;
+}
+/*gallery*/
+.gallery .background{
+	
+	height:200px;
+	width:1000px;
+	margin-bottom:100px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.gallery .background img{
+	
+	height:300px;
+	width:1000px;
+	margin-bottom:200px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.gallery .product td{
+	border:none;
+	padding:10px;
+	background:white;
+
+	
+	
+}
+.gallery .product table{
+
+	padding:10px;
+	border-collapse :seperate;
+	border-spacing:10px;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+.gallery .productimage{
+	height:200px;
+	width:290px;
+	transition:transform .2s;
+
+		
+	
+}
+.gallery .product img:hover {
+	
+	opacity:0.8;
+	transform: scale(1,1.2);
+}
+
+.navigation ul{
+
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.navigation ul li{
+
+	float:left;
+	width:120px;
+	text-align:center;
+	line-height:30px;
+	
+
+}
+.navigation ul li ul li {
+
+	float:left;
+	width:120px;
+	text-align:center;
+	line-height:40px;
+	border:none;
+
+
+}
+
+
+.navigation ul li a{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	
+}
+
+.navigation ul ul{
+	display:none;
+	list-style-type:none;
+	border:none;
+}
+.navigation ul li a:hover{
+	opacity:0.8;
+}
+.navigation ul li:hover ul{
+	display: block;
+	position: absolute;
+	border:none;
+	padding: 0;
+	height:50px;
+	margin-left:0px;
+	left:470px;;
+
+}
+.navigation ul li:hover li{
+	float:none;
+	background-color:rgb(20, 20,20);
+	opacity:0.8;
+	display:block;
+	position:relative;
+	margin-top:1px;
+}*/
+/*
+
+.navigation ul li ul li{
+	display:none;
+}
+
+.navigation ul li:hover ul{
+	display: block;
+		position: absolute;
+	margin: 1px;
+	padding: 0;
+	height:50px;
+	margin-left:0px;
+	left:160px;;
+
+}
+.n*/
+.navigation ul a:hover > ul{
+	
+	opacity:0.8;
+	
+}
+.offers td{
+	
+vertical-align:middle;
+text-align:center;
+}
+.offers img{
+	height:250px;
+}

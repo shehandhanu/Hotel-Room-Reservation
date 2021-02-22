@@ -1,0 +1,433 @@
+/* CSS Document */
+*{ margin: 0; padding: 0;}
+a{ 
+    text-decoration: none;
+}
+
+.clearfix{overflow: auto;}
+
+
+body{
+    background-color: white;
+}
+/*rgb(143, 143, 143)*/
+/* Header */
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    background-color:white;
+}
+
+.links{
+    float: right;
+	
+}
+
+.links ul{
+    list-style: none;
+    margin: 20px 15px;
+}
+
+.links ul li{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid rgb(20,20,20);
+    border-left: 1px solid rgb(20,20,20);
+}
+
+
+.links ul li :last-child{
+    border: 0;
+}
+
+
+.links ul a{
+    color: rgb(20,20,20);
+
+
+}
+
+
+.logo img{
+    margin-left:400px;
+	margin-right:auto;
+	display:block;
+    width: 230px;
+    height: 150px;
+	
+}
+.userimage{
+	height:20px;
+	width:20px;
+	position:absolute;
+	top:20px;
+	right:145px;	
+	}
+
+.hotel-name h1{
+    color: rgb(245, 230, 137);
+    text-align: center;
+}
+/* Header Class End */
+
+/* Search Bar */
+.search-bar{
+    float: right;
+    padding: 2px 10px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.search-bar input{
+    border: none;
+}
+
+.search-bar button{
+    background-color: white;
+    border: none;
+    /* background: url(../images/icons/search.png) */
+}
+/* Search Bar Class End */
+
+/* Navigation Bar */
+.navigation{
+    width: 1000px;
+    height: 42px;
+    
+    padding: 0px;
+    margin: 0 auto;
+	background-color: rgb(64, 63, 63);
+}
+#mybookings{
+	float:right;
+}
+
+.navigation ul{
+    margin: 2px;
+}
+
+.navigation ul li{
+    list-style: none;
+    /* background-color: rgb(50, 50, 50); */
+    display: inline-block;
+    padding: 5px 10px;
+    border-right: 1px solid rgb(245, 230, 137);
+	height:35px;
+	
+	
+}
+.navigation ul li:hover{
+       background-color: rgb(238, 209, 91);
+	color: rgb(20,20,20);
+}
+.navigation .dropDown ul li:hover{
+       background-color: rgb(20, 20, 20);
+	color:white;
+}
+.navigation ul li a:hover{
+   
+	color: rgb(20,20,20);
+	font-size:18px;
+font-weight:bold;
+}
+.navigation ul li:last-child{
+    border: none;
+}
+
+.navigation ul li a{
+    color: rgb(245, 230, 137);
+
+}
+
+/*Drop down*/
+.navigation .dropDown ul li:hover{
+       background-color: rgb(20, 20, 20);
+	color:white;
+}
+.navigation ul{
+
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.navigation ul li{
+
+	float:left;
+	width:100px;
+	text-align:center;
+	line-height:30px;
+	
+
+}
+.navigation ul li ul li {
+
+	float:left;
+	width:120px;
+	text-align:center;
+	line-height:40px;
+	border:none;
+
+
+}
+
+
+.navigation ul li a{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	
+}
+
+.navigation ul ul{
+	display:none;
+	list-style-type:none;
+	border:none;
+}
+.navigation .dropDown  ul li a:hover{
+	opacity:0.8;
+	color:white;
+	font-size: 15px;
+	
+}
+.navigation ul li:hover ul{
+	display: block;
+	position: absolute;
+	background-color: rgb(20,20,20);
+	border:none;
+	padding: 0;
+	height:50px;
+	margin-left:0px;
+	left:290px;
+	z-index: 10;
+	
+	
+
+}
+.navigation ul li:hover li{
+	float:none;
+	background-color:rgb(20, 20,20);
+	
+	opacity:0.8;
+	display:block;
+	position:relative;
+	margin-top:1px;
+}
+
+.navigation ul a:hover > ul{
+	
+	opacity:0.8;
+	
+}
+
+/* Navigation Bar Class End */
+
+/* Footer */
+.footer{
+    width: 1000px;
+    margin: 0 auto;
+    background:  rgb(20, 20,20);
+}
+
+.footer-1{
+    width: 295px;
+    height: 415px;
+    background-color:rgb(14,14,14);
+    float: left;
+}
+
+.footer-2{
+    width: 400px;
+    height: 413px;
+    background-color: #252525;
+    border: 1px solid black;
+    float: left;
+}
+
+.footer-2 img{
+    width: 489px;
+    height: 404px;
+    margin: 3px;
+    border: 1px sloid black;
+
+}
+
+.footer-1 button{
+    float: right;
+    border: none;
+    padding: 0px;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.footer-1 h2{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+}
+
+.footer-1-post{
+    margin-top: 15px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    color: white;
+}
+ .footer-1-post h5{
+     float: right;
+     margin-right: 20px;
+     text-decoration: underline 1px solid gold;
+ }
+
+.s-links{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 240px;
+}
+.s-links ul li{
+    margin-left: 5px;
+    display: inline-block;
+    
+}
+.s-links ul li:first-child{
+    display: flex;
+    margin: 10px 0;
+    font-size: 25px;
+    color: rgb(245, 230, 137);
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+.email{
+    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.email ul{
+    color:white;
+    list-style: none;
+}
+
+.email ul li{
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
+.email ul li:first-child{
+    margin: 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+    color:rgb(245, 230, 137);
+}
+
+.footer-hotline{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.footer-hotline ul li{
+    margin-left: 10px;
+    list-style: none;
+    color:white;
+}
+
+.footer-hotline ul li:first-child{
+    margin-left: 0px;
+    color:rgb(245, 230, 137);
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+* {box-sizing:border-box}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* padding: 10px; */
+    
+}
+
+form{
+    width: 1000px;
+    height: 1000px;
+    background: rgb(209, 212, 212);
+}
+
+.log{
+    width: 320px;
+    height: 450px;
+    /* padding: 20px 30px; */
+    background-color: rgba(58, 58, 58, 0.644);
+    float: left;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+  
+
+.user-img{
+    background: url(../images/login/login.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+
+.log ul li {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+}
+.log ul li input{
+    width: 250px;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(169, 169, 169, 0.274);
+}
+.log ul li input[type="button"]:hover{
+    color: rgb(245, 73, 73);
+}
+
+.log ul li input[type="button"]{
+    background-color: rgba(37, 37, 36, 0.733);
+    color: rgb(245, 230, 137);
+    cursor: pointer;
+    font-size: 20px;
+}
+.log ul li a:hover{
+    color: rgb(245, 73, 73);
+}
+.remember{
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+}
+.fgtpsw{
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+#login{
+    margin: 10px auto;
+}
+
+.already{
+    font-size: 15px;
+    margin: 0 20px;
+}

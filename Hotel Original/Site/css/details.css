@@ -1,0 +1,61 @@
+body{
+    background-color:#fff;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo{
+    width: 100px;
+    height: 150px;
+    border-radius: 7px;
+}
+.brand{
+    position: relative;
+}
+.dateCheck{ 
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    align-items: center;
+    margin: 10px;
+    width: 1050px;
+    height: 150px;
+    position: relative;
+    background-color:#1e45f1c0;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 25px;
+    color: #fff;
+
+}
+form{
+    text-align: center;
+    position: relative;
+    top: 5%;
+    padding: 5px;
+    margin: 10px;
+    overflow: hidden;
+    
+}
+.text{
+    padding: 5px;
+    border-color: black;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+}
+.menCount{
+    padding: 5px;
+    border-radius: 7px;
+    border-color: black;
+    font-family: sans-serif;
+}
+.features{
+    padding: 5px;
+    border-radius: 7px;
+    border-color: black;
+    font-family: sans-serif;
+}

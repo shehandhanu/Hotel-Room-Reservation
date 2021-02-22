@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link href="../css/index.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="../js/register.js"></script>
+ 
+   
+</head>
+<body>
+	<div class="rap">
+		<div class="header clearfix">
+			<div class="right">
+				<div class="links">
+					<ul>
+							<li>
+									<div class="logingbutton">
+										<button data-logincard-target="#logincard">Log In</button>
+									</div><!-- logingbutton -->
+								</li>
+								
+								<div class="logincard" id="logincard">
+									<div class="user-image">
+										<img src="images/login/login.png" alt="user image">
+										<button data-close-button class="close-login-card">&times;</button>
+										<h2 style="text-align: center;">Login</h2>
+									</div><!-- user-image -->
+									<div class="user-inputs">
+										<form action="get">
+											<input type="text" placeholder="User Name">
+											<input type="password" placeholder="Password">
+											<button class="sign-in" id="sign-in">Sign In</button>
+										</form>
+									</div><!-- user-inputs -->
+								</div>
+								<div id="overlay"></div>
+						<li id="signup"><a href="register.html">Sign up</a></li>
+					</ul>
+				</div> <!-- links -->
+
+				<div class="logo">
+					<img src="../images/logo.jpg" alt="logo.jpg">
+				</div><!-- logo -->
+
+				<div class="hotel-name">
+				
+				</div><!-- hotel-name -->
+			</div><!-- right -->
+        </div> <!-- header -->
+    </div><!-- rap -->
+
+		<div class="navigation">
+		<ul>
+			<li><a href="../index.html"> Home</li></a>
+			<li><a href="room.html"> Rooms</a>
+				<div class="dropDown">
+            	<ul>
+                	<li><a href="RoomTypes/singleroom.html"> Single Rooms</li></a>
+                    <li><a href="RoomTypes/doubleroom.html"> Double Rooms</li></a>
+                    <li><a href="RoomTypes/tripleroom.html"> Tripale Rooms</li></a>
+                    <li><a href="RoomTypes/quadroom.html">Quad Rooms</a></li>
+                    <li><a href="RoomTypes/kingroom.html">King Rooms</a></li>
+                    <li><a href="RoomTypes/queenroom.html">Queen Rooms</a></li>
+	
+	</ul>
+	</div>
+</li>
+
+			<!-- <li><a href="event.html"> Events</li></a> -->
+			<li><a href="offers.html"> Offers </li></a>
+            <li><a href="gallery.html"> Gallery</li></a>
+            <li><a href="contactus.html"> Contact us</li></a>
+            <li><a href="aboutus.html"> About us</li></a>
+            <li id="mybookings"><a href="#"> My bookings</li></a>
+		</ul>
+
+		 
+</div><!-- navigation -->
+<body class="form">
+    
+	<div class="page-content">
+
+        
+		<div class="form-v10-content">
+			<form class="form-detail" action="#" method="post" id="myform">
+				<div class="form-left">
+					<h2>General Infomation</h2>
+					<div class="form-row">
+						
+					</div>
+					<div class="form-group">
+						<div class="form-row ">
+                            <input type="text" name="firstname" id="firstname" class="input-text" placeholder="First Name" required maxlength="10">
+						</div>
+                    </div>
+                    <div class="form-row ">
+                            <input type="text" name="lastname" id="lastname" class="input-text" placeholder="Last Name" required maxlength="10">
+						</div>
+
+                   
+					<div class="form-row">
+						<input type="text" name="NIC/Passport Number" class="NIC/Passport Number" id="NICP" placeholder="NIC/Passport Number" required maxlength="10">
+					</div>
+                    
+                    <div class="form-group">
+
+                            <div class="form-row">
+                                    <select>
+                                            <option>Country</option>
+                                           <option value="Srilanka">Srilanka</option>
+                                           <option value="Australia">Australia</option>
+                                           <option value="Poland">Poland</option>
+                                           <option value="NewZealand">NewZealand</option>
+                                       </select>
+                            </div>
+                            <div class="form-row form-row-1">
+                                    <input type="text" name="District" id="District" class="Distict" placeholder="District" required>
+                                </div>
+                            
+                        </div>
+                                                
+
+                        <div class="form-row">
+                                <input type="password" name="password" id="pass" placeholder="Create a Password" onkeyup='check();'required>
+								<span id='message'></span>
+                                <div class="form-checkbox">
+                                        <label class="container" style="margin-left: 25px">Show Password
+                                              <input type="checkbox" class="checkbox1" onclick="myFunction()" style="margin-left: 10px; background-color: black">
+                                    
+                                            
+                                              <span class="checkmark" style="border-color: black ;background-color: black"></span>
+                                            </label>
+                                    </div>
+                            </div>
+
+                            
+                                   
+                               
+
+                        
+                            <div class="form-row">
+                                    <input type="password" name="repassword" id="repass" placeholder="Confirm the Password" onkeyup='check();'required>
+                            </div>
+                    
+                    
+                </div>
+                
+
+				<div class="form-right">
+					<h2>Contact Details</h2>
+					<div class="form-group">
+                            <div class="form-row form-row-1">
+                                <input type="text" name="code" class="code" id="code" placeholder="Code +" required>
+                            </div>
+                            <div class="form-row form-row-2">
+                                <input type="text" name="phone" class="phone" id="phone" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+					<div class="form-row">
+						<input type="email" name="email" class="email" id="email" placeholder="Email Address" required>
+					</div>
+					
+					<div class="form-row">
+						<input type="text" name="cusAddress" class="cusAddress" id="cusAddress" placeholder="Address" required>
+                    </div>
+					<div class="form-checkbox">
+						<label class="container"><p>I do accept the <a href="#" class="text">Terms and Conditions</a> of your site.</p>
+                              <input type="checkbox" name="checkbox">
+                              <span class="checkmark"></span>
+						</label>
+                    </div>
+                    <br><br>
+					<div class="form-row-last">
+					<a href="sample.html" target="blank" class="register" name = "register">Continue </a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<div class="footer clearfix">
+    <div class="footer-1 clearfix">
+		<h2>Laetes Twittes</h2>
+		
+        <div class="footer-1-post">
+			<P> &raquo; The Sri Lanka Institute of Information Technology is a private university in Sri Lanka specializing in technology</P>
+			<h5>2019/08/05   9.30 a.m</h5>
+		</div><!-- footer-1-post -->
+		<div class="footer-1-post">
+			<P> &raquo; The Sri Lanka Institute of Information Technology is a private university in Sri Lanka specializing in technology</P>
+			<h5>2019/08/05   9.30 a.m</h5>
+		</div><!-- footer-1-post -->
+				
+		</div><!-- footer-1 -->
+			<div class="footer-2 clearfix">
+				<div class="s-links">
+					<ul>
+						<li> Social Media </li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+					</ul>
+				</div><!-- s-links -->
+				<div class="email">
+					<ul>
+						<li>Email</li>
+						<li>theroyal@gmail.com</li>
+					</ul>
+				</div><!-- email -->
+				<div class="footer-hotline">
+					<ul>
+						<li>Telephone</li>
+						<li>+94 371234567</li>
+					</ul>
+				</div><!-- footer-hotline -->
+			</div><!-- footer-2  -->
+	
+		</div><!-- footer-1 -->
+</body>
+</body>
+</html>

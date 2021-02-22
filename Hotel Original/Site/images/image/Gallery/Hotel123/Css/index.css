@@ -1,0 +1,388 @@
+
+*{ margin: 0; padding: 0;}
+a{ 
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+.clearfix{overflow: auto;}
+
+
+body{
+    background-color: white;
+}
+/*rgb(143, 143, 143)*/
+/* Header */
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(14,14,14)
+}
+
+.links{
+    float: right;
+	
+}
+
+.links ul{
+    list-style: none;
+    margin: 20px 15px;
+}
+
+.links ul li{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid rgb(245, 230, 137);
+    border-left: 1px solid rgb(245, 230, 137);
+}
+
+
+.links ul li :last-child{
+    border: 0;
+}
+
+
+.links ul a{
+    color: rgb(245, 230, 137)
+}
+
+.logo img{
+    float: left;
+    width: 230px;
+    height: 150px;
+}
+.userimage{
+	height:20px;
+	width:20px;
+	position:absolute;
+	top:20px;
+	right:145px;	
+	}
+#signup{
+	border-right:none;
+}
+.hotel-name h1{
+    color: rgb(245, 230, 137);
+    text-align: center;
+
+}
+/* Header Class End */
+
+/* Search Bar */
+.search-bar{
+    float: right;
+    padding: 2px 10px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.search-bar input{
+    border: none;
+}
+
+.search-bar button{
+    background-color: white;
+    border: none;
+    /* background: url(../images/icons/search.png) */
+}
+/* Search Bar Class End */
+
+/* Navigation Bar */
+.navigation{
+    width: 1000px;
+    height: 30px;
+    background-color: rgb(20, 20,20);
+    padding: 10px;
+    margin: 0px 0 px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#mybookings{
+	float:right;
+}
+
+.navigation ul{
+    margin: 5px;
+}
+
+.navigation ul li{
+    list-style: none;
+    /* background-color: rgb(50, 50, 50); */
+    display: inline-block;
+    padding: 2px 10px;
+    border-right: 1px solid rgb(245, 230, 137);
+	background-color: rgb(20, 20,20);
+	z-index:50;
+	height:25px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.navigation ul li:last-child{
+    border: none;
+}
+
+.navigation ul li a{
+    color: rgb(245, 230, 137);
+}
+.navigation ul li:hover{
+   opacity:0.8;
+
+	
+}
+/* Navigation Bar Class End */
+
+/* Footer */
+.footer{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background:  rgb(20, 20,20);
+	margin-top:50px;
+	
+}
+
+.catogories{
+   
+}
+
+.catogories ul {
+    margin: 15px 50px;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.catogories ul li{
+    font-size: 15px;
+    color: rgb(245, 230, 137);
+    margin: 10px;
+    padding: 0 20px;
+}
+
+.catogories ul li a{
+    color: rgb(245, 230, 137);
+}
+
+.catogories ul li:first-child{
+    font-size: 25px;
+    text-decoration: underline rgb(245, 230, 137);
+    padding: 0;
+}
+
+.quicklink ul{
+    margin: 15px 50px;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.quicklink ul li a{
+    color: rgb(245, 230, 137);
+}
+
+.quicklink ul li{
+    font-size: 15px;
+    color: rgb(245, 230, 137);
+    margin: 10px;
+    padding: 0 20px;
+}
+
+.quicklink ul li:first-child{
+    font-size: 25px;
+    text-decoration: underline rgb(245, 230, 137);
+    padding: 0;
+}
+
+.footercontact{
+    float: inline-end;
+}
+
+.footercontact ul li{
+    color: rgb(245, 230, 137);
+    font-size: 15px;
+}
+
+.footercontact ul{
+    list-style: none;
+}
+
+.s-links{
+    margin: 15px 50px;
+}
+.s-links ul li{
+    display: inline-block;
+}
+.s-links ul li:first-child{
+    display: flex;
+    margin: 10px 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+.email{
+    margin: 40px 50px;
+}
+
+.email ul li{
+    padding: 0 15px;
+}
+
+.email ul li:first-child{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+.footer-hotline{
+    padding: 0 15px;
+    margin: 0 50px;
+}
+
+.footer-hotline ul li:first-child{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+/* Footer Class End */
+.productimage{
+	height:200px;
+	width:300px;	
+	
+}
+.product ul{
+	list-style-type:disc;
+	
+	
+}
+.product td{
+	border:1px solid #999;
+	padding:10px;
+	background:white;
+	padding:20px;
+	
+	
+}
+.product table{
+
+	padding:10px;
+	border-collapse :seperate;
+	border-spacing:50px;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+}
+.product p{
+	font-size:16px;
+	font-weight:bold;
+}
+.right{
+	
+	
+}
+.left{
+	
+	
+}
+.roomimage{
+	height:350px;
+	width:550px;
+	
+
+}
+.coloumn td{
+	
+	vertical-align:top;
+	padding:10px;
+}
+.facilities img{
+	height:50px;
+	width:50px;
+	padding:20px;
+	margin-left:50px;
+	
+	opacity:0.7;
+	
+}
+.container{
+	height:350px;
+	width:550px;
+	box-sizing:border-box;
+	position:relative;
+	margin-left:10px;
+	margin-right:20px;
+	background-color:rgb(14,14,14);
+
+}
+.mySlides{
+	display:none;
+}
+.cursor{
+	cursor:pointer;
+}
+.prev,.next{
+	cursor:pointer;
+	position:absolute;
+	top:60%;
+	width:auto;
+	padding:16px;
+	margin-top:-50px;
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+	border-radius:0 3px 3px 0;
+	user-select:none;
+	 -webkit-user-select: none;
+}
+.next{
+	right:0;
+	border-radius:3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+	background-color:rgba(0, 0, 0, 0.8);
+}
+.row:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.column{
+	float:left;
+	width:16.66%;
+}
+.column img{
+	
+}
+.demo {
+	opacity:0.6;
+	height:90px;
+	width:90px;
+	
+}
+.active, .demo:hover{
+	opacity:1;
+}
+.singleRoom{
+	padding:20px;
+}
+.singleRoom h1{
+	color:rgb(245, 230, 137);
+	background-color:rgb(14,14,14);
+	padding:5px;
+
+	
+}
+.singleRoom p{
+	font-family:cabin condensed,sans-serif;
+	margin-bottom:10px;
+	
+}
+.product p a{
+	color:black;
+}
+	
+	

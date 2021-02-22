@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pavement</title>
+	
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="../css/pavement.css"/>
+    
+</head>
+<body class="form">
+	
+		<div class="rap">
+				<div class="header clearfix">
+					<div class="right">
+						<div class="links">
+							<ul>
+									<li>
+											<div class="logingbutton">
+												<button data-logincard-target="#logincard">Log In</button>
+											</div><!-- logingbutton -->
+										</li>
+										
+										<div class="logincard" id="logincard">
+											<div class="user-image">
+												<img src="images/login/login.png" alt="user image">
+												<button data-close-button class="close-login-card">&times;</button>
+												<h2 style="text-align: center;">Login</h2>
+											</div><!-- user-image -->
+											<div class="user-inputs">
+												<form action="get">
+													<input type="text" placeholder="User Name">
+													<input type="password" placeholder="Password">
+													<button class="sign-in" id="sign-in">Sign In</button>
+												</form>
+											</div><!-- user-inputs -->
+										</div>
+										<div id="overlay"></div>
+								<li id="signup"><a href="register.html">Sign up</a></li>
+							</ul>
+						</div> <!-- links -->
+		
+						<div class="logo">
+							<img src="../images/logo.jpg" alt="logo.jpg">
+						</div><!-- logo -->
+					</div><!-- right -->
+				</div> <!-- header -->
+			</div><!-- rap -->
+					<br>
+		
+			<div class="navigation">
+				<ul>
+					<li><a href="../index.html"> Home</li></a>
+					<li><a href="room.html"> Rooms</a>
+						<ul>
+							<li><a href="RoomTypes/singleroom.html"> Single Rooms</li></a>
+							<li><a href="RoomTypes/doubleroom.html"> Double Rooms</li></a>
+							<li><a href="RoomTypes/tripleroom.html"> Tripale Rooms</li></a>
+							<li><a href="RoomTypes/quadroom.html">Quad Rooms</a></li>
+							<li><a href="RoomTypes/kingroom.html">King Rooms</a></li>
+							<li><a href="RoomTypes/queenroom.html">Queen Rooms</a></li>
+						 </ul></li>
+					<!-- <li><a href="event.html"> Events</li></a> -->
+					<li><a href="offers.html"> Offers </li></a>
+					<li><a href="gallery.html"> Gallery</li></a>
+					<li><a href="contactus.html"> Contact us</li></a>
+					<li><a href="aboutus.html"> About us</li></a>
+					<li id="mybookings"><a href="#"> My bookings</li></a>
+				</ul>
+			</div>	<!-- navigation -->
+		
+		
+	<div class="page-content">
+
+        
+		<div class="form-v10-content">
+			<form class="form-detail" action="#" method="post" id="myform">
+				<div class="form-left">
+					<h2>Pavement Details</h2>
+					<div class="form-row">
+						
+					</div>
+					<div class="form-group">
+						<div class="form-row form-row-1">
+                            <input type="text" name="cardname" id="cardname" class="cardname" placeholder="Card Holders Name" required >
+						</div>
+                    </div>
+                    <div class="form-row form-row-1">
+                            <input type="text" name="ccnum" id="ccnum" class="ccnum" placeholder="Credit Card Number" required maxlength="16" data-mask="0000 0000 0000 0000">
+						</div>
+
+					<div class="form-row form-row-2">
+						<input type="number" name="cvv" class="cvv" id="cvv" placeholder="cvv"  maxlength="3" required >
+					</div>
+                    
+                    <div class="form-row-last">
+                             <input type="submit" name="Checkout" class="checkout" value="Checkout">
+                            </div>
+                </div>
+                
+
+				<div class="form-right">
+					<h2>Total Pavement</h2>
+                    <div class="container">
+                            <h4>Cart <span class="price" style="color:rgb(248, 245, 245)"></span></h4>
+                            <p><a href="#">Queens rooms</a> <span class="price">$1500</span></p>
+                            <p><a href="#">Double Rooms</a> <span class="price">$500</span></p>
+                            <p><a href="#">HoneyMoon Rooms</a> <span class="price">$400</span></p>
+                          
+                            <hr width="40%">
+                                      <h3 style="color: aliceblue">Total Amount</h3>
+                            <p>Total <span class="TotPrice" id="TotPrice" style="color:white"><b>$2600</b></span></p>
+                          </div>
+					
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="footer clearfix">
+    <div class="footer-1 clearfix">
+		<h2>Laetes Twittes</h2>
+		
+        <div class="footer-1-post">
+			<P> &raquo; The Sri Lanka Institute of Information Technology is a private university in Sri Lanka specializing in technology</P>
+			<h5>2019/08/05   9.30 a.m</h5>
+		</div><!-- footer-1-post -->
+		<div class="footer-1-post">
+			<P> &raquo; The Sri Lanka Institute of Information Technology is a private university in Sri Lanka specializing in technology</P>
+			<h5>2019/08/05   9.30 a.m</h5>
+		</div><!-- footer-1-post -->
+				
+		</div><!-- footer-1 -->
+			<div class="footer-2 clearfix">
+				<div class="s-links">
+					<ul>
+						<li> Social Media </li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+					</ul>
+				</div><!-- s-links -->
+				<div class="email">
+					<ul>
+						<li>Email</li>
+						<li>theroyal@gmail.com</li>
+					</ul>
+				</div><!-- email -->
+				<div class="footer-hotline">
+					<ul>
+						<li>Telephone</li>
+						<li>+94 371234567</li>
+					</ul>
+				</div><!-- footer-hotline -->
+			</div><!-- footer-2  -->
+	
+		</div><!-- footer-1 -->
+</body>
+</html>

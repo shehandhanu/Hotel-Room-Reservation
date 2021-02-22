@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<script defer src="js/scripts.js"></script>
+   
+</head>
+<body>
+	<div class="rap">
+		<div class="header clearfix">
+			<div class="right">
+				<div class="links">
+					<ul>
+						<li>
+							<div class="logingbutton">
+								<button data-logincard-target="#logincard">Log In</button>
+							</div><!-- logingbutton -->
+						</li>
+						
+						
+							<div class="logincard" id="logincard">
+								
+								<div class="user-image">
+									<img src="images/login/login.png" alt="user image">
+									<button data-close-button class="close-login-card">&times;</button>
+									<h2 style="text-align: center;">Login</h2>
+								</div><!-- user-image -->
+								<div class="user-inputs">
+									<form action="get">
+										<input type="text" placeholder="User Name">
+										<input type="password" placeholder="Password">
+										<button class="sign-in" id="sign-in">Sign In</button>
+									</form>
+								</div><!-- user-inputs -->
+							</div>
+							<div id="overlay"></div>
+						<li id="signup"><a href="pages/register.html">Sign up</a></li>
+					</ul>
+				</div> <!-- links -->
+
+				<div class="logo">
+					<img src="Images/logo.png" alt="logo.jpg">
+				</div><!-- logo -->
+
+				<div class="hotel-name">
+				
+				</div><!-- hotel-name -->
+			</div><!-- right -->
+        </div> <!-- header -->
+    </div><!-- rap -->
+            <br>
+
+	<div class="navigation">
+		<ul>
+			<li><a href="index.html"> Home</li></a>
+			<li><a href="#"> Rooms</a>
+				<div class="dropDown">
+            	<ul>
+                	<li><a href="pages/RoomTypes/singleroom.html"> Single Rooms</li></a>
+                    <li><a href="pages/RoomTypes/doubleroom.html"> Double Rooms</li></a>
+                    <li><a href="pages/RoomTypes/tripleroom.html"> Tripale Rooms</li></a>
+                    <li><a href="pages/RoomTypes/quadroom.html">Quad Rooms</a></li>
+                    <li><a href="pages/RoomTypes/kingroom.html">King Rooms</a></li>
+                    <li><a href="pages/RoomTypes/queenroom.html">Queen Rooms</a></li>
+				</ul>
+			</li>
+			<!-- <li><a href="pages/event.html"> Events</li></a> -->
+			<li><a href="pages/offers.html"> Offers </li></a>
+            <li><a href="pages/gallery.html"> Gallery</li></a>
+            <li><a href="pages/contactus.html"> Contact us</li></a>
+            <li><a href="pages/aboutus.html"> About us</li></a>
+            <li id="mybookings"><a href="#"> My bookings</li></a>
+		</ul>
+	</div>
+
+	<div class="home-page clearfix">
+		<div class="image-tranceform">
+			<div class="slider">
+				<div class="slide">
+				<div class="content">
+				<h2>King Rooms</h2>
+					<h4>(Luxury rooms)</h4>
+				<p>Enjoy your stay at Holiday hotel in this 304  square foot room complete with a king size bed with luxurious villa di lusso crisp white cotton linens. This standard luxury room features a modern desk workspace and oversized chair with ottoman.</p>
+				</div>
+				<img src="images/homepage images/image/hotel-slide-1.jpg">
+				</div>
+				<div class="slide">
+				<div class="content">
+				<h2>Luxury Attached Bathrooms</h2>
+				<p>The large luxury bathroom offers a large walk in glass shower and Carrera marble vanity. The featured beekman bath amenities will leave you feeling refreshed and renewed like living in heaven. </p>
+				</div>
+				<img src="images/homepage images/image/hotel-slide-2.jpg">
+				</div>
+				<div class="slide">
+				<div class="content">
+				<h2>Av System</h2>
+				<p>AVT is appointed to install the AV system and six 55” digital kiosks for our hotel. The scope of works includes audio-visual control system , LCD displays , ceiling speakers , projectors, lightning controls and DJ mixer etc. All the AV facilities offer a new experience for upwardly mobile, young and savvy tourists and business travellers during their stay in the hotel.</p>
+				</div>
+				<img src="images/homepage images/image/hotel-slide-3.jpg">
+				</div>
+				<div class="slide">
+				<div class="content">
+				<h2>Delicious Dishes</h2>
+				<p>The Holiday hotel offers grandeur extravagance and unparalleled dining experiences . Serving exotic dishes from around the world. You will be spoilt for choice. You can have best kind of delicious meals. If you are dreaming of something yummy, delicious, creamy and mouth-watering, it can only be our delicious meal items.</p>
+				</div>
+				<img src="images/homepage images/image/hotel-slide-4.jpg">
+				</div>
+				<div class="slide">
+				<div class="content">
+				<h2>Soak up the sun</h2>
+				<p>There is no better place to enjoy the sunshine than on the outdoor sun deck at the Holiday hotel. The sun deck features comfortable seating areas so you can soak up the sun in style. </p>
+				</div>
+				<img src="images/homepage images/image/hotel-slide-5.jpg">
+				</div>
+				</div>
+		</div><!-- image-tranceform -->
+
+		<div class="search-bar clearfix">
+			<form action="post">
+				<div class="search-item">
+						<h4>Select Room Type</h4>
+					<select name="" id="">
+						<option value="0">Select Room Type</option>
+						<option value="1">Single Room</option>
+						<option value="2">Double Room</option>
+						<option value="3">Triple Room</option>
+						<option value="4">Quad Room</option>
+						<option value="5">King Room</option>
+						<option value="6">Queen Room</option>
+					</select>
+				</div>
+				<div class="search-item">
+						<h4>Number Of Rooms</h4>
+					<select name="" id="">
+						<option value="">Number Of Rooms</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+						<option value="">6</option>
+						<option value="">7</option>
+						<option value="">8</option>
+						<option value="">9</option>
+						<option value="">10</option>
+					</select>
+				</div>
+				<div class="search-item">
+					<h4>Due</h4>
+					<input type="date">
+				</div>
+				
+				<div class="search-item">
+					<h4>To</h4>
+					<input type="date">
+				</div>
+				
+				<div class="search-item">
+					<h4>Adult</h4>
+					<select name="" id="numberofadults">
+						<option value="">0</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+					</select>
+				</div>
+				
+				<div class="search-item">
+					<h4>Kids</h4>
+					<select name="" id="numberofkids">
+						<option value="">0</option>
+						<option value="">1</option>
+						<option value="">2</option>
+						<option value="">3</option>
+						<option value="">4</option>
+						<option value="">5</option>
+					</select>
+				</div>
+					<button>Search</button>
+				
+			</form>
+		</div><!-- search-bar -->
+
+		<div class="features clearfix">
+			<div class="feature-1">
+				<h2>Atractive Light</h2>
+				<img src="images/homepage images/features/light.png" alt="">
+				<h5>The Sri Lanka Institute of Information Technology is a private university in Sri Lanka specializing in technology, engineering and business. It is an autonomous non state university in Sri Lanka, awarding undergraduate and taught- and research postgraduate degrees</h5>
+			</div><!-- feature-1 -->
+			<div class="feature-1">
+				<h2>Beutiful Out Door Viwe</h2>
+				<img src="images/homepage images/features/outdoor.png" alt="">
+				<h5>The Sri Lanka Institute of Information Technology is a private university in Sri Lanka specializing in technology, engineering and business. It is an autonomous non state university in Sri Lanka, awarding undergraduate and taught- and research postgraduate degrees</h5>
+			</div><!-- feature-1 -->
+			<div class="feature-1">
+				<h2>Comfotable Bed</h2>
+				<img src="images/homepage images/features/comfotable.png" alt="">
+				<h5>The Sri Lanka Institute of Information Technology is a private university in Sri Lanka specializing in technology, engineering and business. It is an autonomous non state university in Sri Lanka, awarding undergraduate and taught- and research postgraduate degrees</h5>
+			</div><!-- feature-1 -->
+		</div><!-- features -->
+
+		<div class="home-middle clearfix">
+			
+			<div class="middle-about clearfix">
+				<h4>About Us</h4>
+				<img src="images/homepage images/middle/about-us.png" alt="about us">
+				<p>The story of Holiday Hotel Colombo which opened it doors in 1998 is a splendid tale of continual improvement of product and the highest standards of quality in hospitality 
+					Having embraced over 3 decades of expertise in hospitality our vision and beliefs are firmly grounded in extending a true personalized service to all our guests, Laced with an unforgettable luxury hotel experience 
+					</p>
+				<a href="pages/aboutus.html">Read More &raquo;</a>
+			</div><!-- middle-about -->
+
+			<div class="middle-photos">
+				<img src="images/homepage images/about-us-image.jpg" alt="">
+			</div>
+
+		</div><!-- home-middle -->
+
+		<div class="feedbacks clearfix">
+
+			<h2>Happy Customers</h2>
+			<p>These Are The Customers Reviews</p>
+
+			<div class="feedbacks-1">
+				<img src="images/homepage images/features/light.png" alt="">
+				<h5>Awesome hotel with very accommodating staff. The bellmen were fantastic and went out of their way to make our trip a lot of fun. Our team great suggestions for Bedroom. Be sure to have breakfast at the hotel. The views are amazing.</P>
+					<h5 class="Commenters">Deneth Sandeepa</h5>
+			</div><!-- feature-1 -->
+			<div class="feedbacks-1">
+				<img src="images/homepage images/features/outdoor.png" alt="">
+				<h5>Food is marvellous and we like the atmosphere. We have came so many times for buffet and our family enjoyed the food very much.</P>
+					<h5 class="Commenters">Thanoj Pathum</h5>
+			</div><!-- feature-1 -->
+			<div class="feedbacks-1">
+				<img src="images/homepage images/features/comfotable.png" alt="">
+				<h5>Nice And Morvoles. I Love This Place</h5>
+					<h5 class="Commenters">Sumudu Lakshika</h5>
+			</div><!-- feature-1 -->
+		</div><!-- feedbacks -->
+
+		<div class="offers clearfix">
+			<div class="offer-image">
+				<img src="images/homepage images/offer/hotel.jpg" alt="">
+			</div><!-- offer-image -->
+			<div class="offer-dis">
+				<h4>Offer and acceptance analysis is a traditional approach in contract law. The offer and acceptance formula, developed in the 19th century, identifies a moment of formation when the parties are of one mind</h4>
+				<h4>Already Have Account ?   <a href="pages/login.html"> Log in</a> and <a href="#">Get Your Offers</a></h4>
+				
+			</div><!-- offer-dis -->
+		</div><!-- offers -->
+	</div><!-- home-page -->
+
+	<div class="map clearfix">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.8233389196644!2d80.36069061428095!3d7.484750394600957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae33a1f76f3dfaf%3A0x288f333fefb6c535!2sSLIIT%20(Sri%20Lanka%20Institute%20of%20Information%20Technology)%20Kurunegala%20branch!5e0!3m2!1sen!2slk!4v1567485076747!5m2!1sen!2slk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>			
+	</div><!-- map -->
+
+	
+<div class="footer clearfix">
+
+			<div class="footer-1 clearfix">
+				<h2>Laetes Twittes</h2>
+				<div class="footer-1-post">
+					<P> &raquo; The Sri Lanka Institute of Information Technology is a private university in Sri Lanka specializing in technology</P>
+					<h5>2019/08/05   9.30 a.m</h5>
+				</div><!-- footer-1-post -->
+				<div class="footer-1-post">
+					<P> &raquo; The Sri Lanka Institute of Information Technology is a private university in Sri Lanka specializing in technology</P>
+					<h5>2019/08/05   9.30 a.m</h5>
+				</div><!-- footer-1-post -->
+				
+			</div><!-- footer-1 -->
+	
+			<div class="footer-2 clearfix">
+				<div class="s-links">
+					<ul>
+						<li> Social Media </li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+						<li><a href="#"><img src="#" alt=""></a></li>
+					</ul>
+				</div><!-- s-links -->
+				<div class="email">
+					<ul>
+						<li>Email</li>
+						<li>theroyal@gmail.com</li>
+					</ul>
+				</div><!-- email -->
+				<div class="footer-hotline">
+					<ul>
+						<li>Telephone</li>
+						<li>+94 371234567</li>
+					</ul>
+				</div><!-- footer-hotline -->
+			</div><!-- footer-2  -->
+	
+		</div><!-- footer -->
+	
+	</body>
+	</html>

@@ -1,0 +1,636 @@
+/* CSS Document */
+*{ margin: 0; padding: 0;}
+a{ 
+    text-decoration: none;
+}
+
+.clearfix{overflow: auto;}
+
+
+body{
+    background-color: white;
+}
+/*rgb(143, 143, 143)*/
+/* Header */
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    background-color:white;
+}
+
+.links{
+    float: right;
+	
+}
+
+.links ul{
+    list-style: none;
+    margin: 20px 15px;
+}
+
+.links ul li{
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid rgb(20,20,20);
+    border-left: 1px solid rgb(20,20,20);
+}
+
+
+.links ul li :last-child{
+    border: 0;
+}
+
+
+.links ul a{
+    color: rgb(20,20,20);
+
+
+}
+
+
+.logo img{
+    margin-left:400px;
+	margin-right:auto;
+	display:block;
+    width: 230px;
+    height: 150px;
+	
+}
+.userimage{
+	height:20px;
+	width:20px;
+	position:absolute;
+	top:20px;
+	right:145px;	
+	}
+
+.hotel-name h1{
+    color: rgb(245, 230, 137);
+    text-align: center;
+}
+/* Header Class End */
+
+/* Search Bar */
+.search-bar{
+    float: right;
+    padding: 2px 10px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.search-bar input{
+    border: none;
+}
+
+.search-bar button{
+    background-color: white;
+    border: none;
+    /* background: url(../images/icons/search.png) */
+}
+/* Search Bar Class End */
+
+/* Navigation Bar */
+.navigation{
+    width: 1000px;
+    height: 42px;
+    
+    padding: 0px;
+    margin: 0 auto;
+	background-color: rgb(64, 63, 63);
+}
+#mybookings{
+	float:right;
+}
+
+.navigation ul{
+    margin: 2px;
+}
+
+.navigation ul li{
+    list-style: none;
+    /* background-color: rgb(50, 50, 50); */
+    display: inline-block;
+    padding: 5px 10px;
+    border-right: 1px solid rgb(245, 230, 137);
+	height:35px;
+	
+	
+}
+.navigation ul li:hover{
+       background-color: rgb(238, 209, 91);
+	color: rgb(20,20,20);
+}
+.navigation .dropDown ul li:hover{
+       background-color: rgb(20, 20, 20);
+	color:white;
+}
+.navigation ul li a:hover{
+   
+	color: rgb(20,20,20);
+	font-size:18px;
+font-weight:bold;
+}
+.navigation ul li:last-child{
+    border: none;
+}
+
+.navigation ul li a{
+    color: rgb(245, 230, 137);
+
+}
+
+/*Drop down*/
+.navigation .dropDown ul li:hover{
+       background-color: rgb(20, 20, 20);
+	color:white;
+}
+.navigation ul{
+
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.navigation ul li{
+
+	float:left;
+	width:100px;
+	text-align:center;
+	line-height:30px;
+	
+
+}
+.navigation ul li ul li {
+
+	float:left;
+	width:120px;
+	text-align:center;
+	line-height:40px;
+	border:none;
+
+
+}
+
+
+.navigation ul li a{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	
+}
+
+.navigation ul ul{
+	display:none;
+	list-style-type:none;
+	border:none;
+}
+.navigation .dropDown  ul li a:hover{
+	opacity:0.8;
+	color:white;
+	font-size: 15px;
+	
+}
+.navigation ul li:hover ul{
+	display: block;
+	position: absolute;
+	background-color: rgb(20,20,20);
+	border:none;
+	padding: 0;
+	height:50px;
+	margin-left:0px;
+	left:290px;
+	z-index: 10;
+	
+	
+
+}
+.navigation ul li:hover li{
+	float:none;
+	background-color:rgb(20, 20,20);
+	
+	opacity:0.8;
+	display:block;
+	position:relative;
+	margin-top:1px;
+}
+
+.navigation ul a:hover > ul{
+	
+	opacity:0.8;
+	
+}
+/* Navigation Bar Class End */
+
+/* Footer */
+.footer{
+    width: 1000px;
+    margin: 0 auto;
+    background:  rgb(20, 20,20);
+}
+
+.footer-1{
+    width: 295px;
+    height: 415px;
+    background-color:rgb(14,14,14);
+    float: left;
+}
+
+.footer-2{
+    width: 400px;
+    height: 413px;
+    background-color: #252525;
+    border: 1px solid black;
+    float: left;
+}
+
+.footer-2 img{
+    width: 489px;
+    height: 404px;
+    margin: 3px;
+    border: 1px sloid black;
+
+}
+
+.footer-1 button{
+    float: right;
+    border: none;
+    padding: 0px;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.footer-1 h2{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+}
+
+.footer-1-post{
+    margin-top: 15px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    color: white;
+}
+ .footer-1-post h5{
+     float: right;
+     margin-right: 20px;
+     text-decoration: underline 1px solid gold;
+ }
+
+.s-links{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 240px;
+}
+.s-links ul li{
+    margin-left: 5px;
+    display: inline-block;
+    
+}
+.s-links ul li:first-child{
+    display: flex;
+    margin: 10px 0;
+    font-size: 25px;
+    color: rgb(245, 230, 137);
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+.email{
+    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.email ul{
+    color:white;
+    list-style: none;
+}
+
+.email ul li{
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
+.email ul li:first-child{
+    margin: 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+    color:rgb(245, 230, 137);
+}
+
+.footer-hotline{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.footer-hotline ul li{
+    margin-left: 10px;
+    list-style: none;
+    color:white;
+}
+
+.footer-hotline ul li:first-child{
+    margin-left: 0px;
+    color:rgb(245, 230, 137);
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+
+.catogories{
+   
+}
+
+.catogories ul {
+    margin: 15px 50px;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.catogories ul li{
+    font-size: 15px;
+    color: rgb(245, 230, 137);
+    margin: 10px;
+    padding: 0 20px;
+}
+
+.catogories ul li a{
+    color: rgb(245, 230, 137);
+}
+
+.catogories ul li:first-child{
+    font-size: 25px;
+    text-decoration: underline rgb(245, 230, 137);
+    padding: 0;
+}
+
+.quicklink ul{
+    margin: 15px 50px;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.quicklink ul li a{
+    color: rgb(245, 230, 137);
+}
+
+.quicklink ul li{
+    font-size: 15px;
+    color: rgb(245, 230, 137);
+    margin: 10px;
+    padding: 0 20px;
+}
+
+.quicklink ul li:first-child{
+    font-size: 25px;
+    text-decoration: underline rgb(245, 230, 137);
+    padding: 0;
+}
+
+.footercontact{
+    float: inline-end;
+}
+
+
+.footercontact ul li{
+    color: rgb(245, 230, 137);
+    font-size: 15px;
+}
+
+.footercontact ul{
+    list-style: none;
+}
+
+.s-links{
+    margin: 15px 50px;
+}
+.s-links ul li{
+    display: inline-block;
+}
+.s-links ul li:first-child{
+    display: flex;
+    margin: 10px 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+.email{
+    margin: 40px 50px;
+}
+
+.email ul li{
+    padding: 0 15px;
+}
+
+.email ul li:first-child{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+.footer-hotline{
+    padding: 0 15px;
+    margin: 0 50px;
+}
+
+.footer-hotline ul li:first-child{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 25px;
+    text-decoration: underline solid rgb(245, 230, 137);
+}
+
+/* footer end */
+
+
+body {
+    padding: 0;
+    margin:  0;
+     /* background-image: url(images/hotel7.jpg);  */
+   width: 100%;
+   background-repeat: no-repeat;
+   background-color: #999;
+   background-position: center;
+   background-size: auto;
+   height: 100%;
+}
+.page-content {
+	width: 100%;
+    margin:  0 auto;
+    opacity: 1;
+	/*background*/
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+/* pavemetn form */
+.form-v10-content  {
+	background: white;
+	width: 1100px;
+	border-radius: 10px;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	margin: 95px 0;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+ .form-detail {
+	position: relative;
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+}
+ .form-detail h2 {
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: 34px;
+	padding: 33px 50px 0px 60px;
+}
+/* left panel width */
+ .form-left {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 100%;
+}
+ .form-left h2 {
+	color: black;
+}
+ .form-right {
+	width: 75%;
+	background: black;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+ .form-right h2 {
+	color: #fff;
+}
+ .form-group {
+	display: inline-flex;
+	display: -webkit-flex;
+}
+.form-row {
+	position: relative;
+	margin-bottom: 24px;
+	padding-left: 50px;
+    padding-right: 50px;
+}
+/* cvv length */
+.form-row.form-row-2 {
+	width: 15%;
+	padding: 0 12px 0 60px;
+} 
+/* text fields length */
+.form-row.form-row.form-row-1
+{
+    width: 70%;
+}
+
+
+.form-v10-content .form-detail select,
+.form-v10-content .form-detail input {
+	width: 100%;
+    padding: 11.5px 15px 15px 15px;
+    border: 1px solid transparent;
+    background: transparent;
+    appearance: unset;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative
+    
+}
+
+.form-left select {
+	color: #666;
+}
+
+
+.form-v10-content .form-detail .form-left input {
+	color: #000;
+}
+.form-v10-content .form-detail .form-right input {
+	color: #fff;
+}
+.form-v10-content .form-detail .form-left input,
+.form-v10-content .form-detail .form-left select {
+	border-bottom: 1px solid #ccc;
+}
+
+.form-v10-content .form-detail .form-right input,
+.form-v10-content .form-detail .form-right select {
+	border-bottom: 1px solid;
+	border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.form-v10-content .form-detail .form-left .form-row-last {
+    padding-left: 60px;
+    margin: 44px 0 10px;
+}
+
+/* checkout button */
+.form-v10-content .form-detail .form-left .checkout {
+	background: rgba(182, 84, 4, 0);
+	border-radius: 25px;
+	box-shadow: 0px 6px 17px 0px rgba(0, 0, 0, 0.15);
+	width: 180px;
+	border: none;
+	margin: 6px 0 50px 0px;
+	cursor: pointer;
+	color: #333;
+	font-weight: 700;
+	font-size: 15px;
+	
+}
+.form-v10-content .form-detail .form-left .checkout:hover {
+	
+    background: black;
+    color: #ccc;
+
+}
+/* end of checkout */
+
+.form-v10-content .form-detail .form-left .form-row-last input {
+	padding: 12.5px;
+}
+
+
+	.form-v10-content .form-detail .form-right .form-group .form-row.form-row-2 .select-btn {
+		right: 15%;
+	}
+	 .form-detail h2 {
+	    padding: 33px 30px 0px 30px;
+	}
+    
+    .container
+    {
+        margin-left: 14%;
+        margin-top: -8%;
+        text-decoration: none;
+    }
+  .form-right hr{
+        width: 85%;
+        margin-left: 1%;
+        margin-top: 32%;
+    }
+     .form-right h3{
+        margin-left: 26%;
+        margin-top: 0%;
+        font-size: 20px;
+    }
+    .form-right .TotPrice
+    {
+        margin-left: 18%;
+         font-size: 42px;
+    }
+    
